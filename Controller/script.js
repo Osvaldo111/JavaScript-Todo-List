@@ -7,6 +7,7 @@ var ul = document.getElementById("listTasks");
 
 // localStorage.removeItem("tasks");
 function init() {
+  alert();
   addTaskToList();
   displayTasks();
   taskCompleted();
